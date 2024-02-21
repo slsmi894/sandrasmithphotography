@@ -4,49 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Sandra Smith Photography</title>
 </head>
 
 <body>
-    <header class="container-fluid">
-        <h1>SANDRA SMITH</h1>
-        <h2>PHOTOGRAPHY</h2>
+    <header class="container-fluid text-center">
+        <h1><span class="sColor">S</span>ANDRA<span class="sColor">S</span>MITH</h1>
+        <h2><span class="secondTitle">PHOTOGRAPHY</span></h2>
         <nav>
-            <a href="./pages/about.html">About</a>
-            <a href="./pages/family.html">Family</a>
-            <a href="./pages/babies.html">Babies&Toddlers</a>
-            <a href="./pages/pets.html">Pets</a>
-            <a href="./pages/hs-seniors.html">HighSchool Seniors</a>
+            <a href="./index.html">Home</a>
             <a href="./pages/how-it-works.html">How It Works</a>
-            <a href="./pages/contact.html">Contact</a>
+            <a href="./pages/portraits.html">Portraits</a>
+            <!-- <a href="./pages/commercial.html">Commercial</a> -->
+            <a href="./pages/investment.html">Investment</a>
+            <!-- <a href="./pages/babies.html">Babies&Toddlers</a>
+            <a href="./pages/pets.html">Pets</a>
+            <a href="./pages/hs-seniors.html">HighSchool Seniors</a> -->
+            <a href="./pages/about.html">About</a>
             <a href="./pages/blog.html">Blog</a>
+            <a href="./pages/contact.html">Contact</a>
+            <a href="./pages/photographers.html">Photographers</a>
         </nav>
     </header>
     <div class="container large image carousel">
-        <div class="row">
-            <div class="carousel"></div>
-            <h2>WHICH STYLE IS BEST FOR YOUR HOME?</h2>
-        </div>
-        <div>
-            <a href="">
-                <h3>CLASSIC BW</h3>
-            </a>
-            <a href="">
-                <h3>CLASSIC CHROMA</h3>
-            </a>
-            <a href="">
-                <h3>MODERN</h3>
-            </a>
-            <a href="">
-                <h3>LUXE</h3>
-            </a>
-        </div>
-    </div>
-    <main></main>
+        <main>
+            <div class="row">
+                <!-- carousel -->
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/7.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carry text-center">
 
+                    <h2>WHICH STYLE IS BEST FOR YOUR HOME?</h2>
+                </div>
+            </div>
+            <div class="row boxes">
+                <a href="#" class="col-3 boxitem classicbw">
+                    <div>
+                        <h3>CLASSIC BW</h3>
+
+                    </div>
+                </a>
+                <a href="#" class="col-3 boxitem chroma">
+                    <div>
+
+                        <h3>CLASSIC CHROMA</h3>
+                    </div>
+                </a>
+                <a href="#" class="col-3 boxitem modern">
+                    <div>
+
+                        <h3>MODERN</h3>
+                    </div>
+                </a>
+                <a href="#" class="col-3 boxitem luxe">
+                    <div>
+
+                        <h3>LUXE</h3>
+                    </div>
+                </a>
+            </div>
+    </div>
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

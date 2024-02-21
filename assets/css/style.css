@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+    color: darkgrey;
+    line-height: 1.1;
+    background-color: white;
+}
+
+header {
+    line-height: 1.8;
+    font-family: PTSans;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 15px 0;
+}
+
+.sColor {
+    color: grey;
+    font-size: 3rem;
+}
+
+.secondStyle {
+    color: grey;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Quicksand;
+    color: grey;
+}
+
+nav a:hover {
+    border-top: 2px solid darkgrey;
+    color: darkslategrey;
+}
+
+.carry h2 {
+    margin: 30px 0;
+}
+.boxes {
+   margin: 0 5px 45px 0;
+}
+.boxitem {
+    min-height: 175px;
+    max-height: 175px;
+    width: 20%;
+    margin: 10px 2%;
+    text-decoration: none;
+
+} 
+.boxitem > div {
+    position: relative;
+    margin-top: 75%;
+    
+}
+
+.boxitem h3 {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.classicbw {
+    background-image: url('../images/13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.classicbw:hover {
+    background-image: url("../images/buster.jpg");
+}
+
+.chroma {
+    background-image: url('../images/14.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.chroma:hover {
+    background-image: url("../images/buster.jpg");
+}
+
+.modern {
+    background-image: url('../images/17.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.modern:hover {
+    background-image: url("../images/buster.jpg");
+}
+
+.luxe {
+    background-image: url('../images/18.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.luxe:hover {
+    background-image: url("../images/buster.jpg");
+}
+
+
