@@ -1,0 +1,9 @@
+p {
+    font: 0.5rem;
+}
+
+.allImg {
+    padding: 10px;
+    min-height: 400px;
+    max-height: 400px;
+}

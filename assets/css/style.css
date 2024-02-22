@@ -65,12 +65,13 @@ nav a:hover {
 .boxitem > div {
     position: relative;
     margin-top: 75%;
+    padding: 4px 6px;
     
 }
 
 .boxitem h3 {
     font-size: 1.2rem;
-    color: white;
+    color: black;
     font-weight: bolder;
     text-align: center;
 }
@@ -83,16 +84,24 @@ nav a:hover {
 
 .classicbw:hover {
     background-image: url("../images/buster.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+
 .chroma {
-    background-image: url('../images/14.jpg');
+    background-image: url('../images/91a.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 .chroma:hover {
-    background-image: url("../images/buster.jpg");
+    background-image: url("../images/IMG_3294.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-position: center;
+   
 }
 
 .modern {
@@ -102,17 +111,23 @@ nav a:hover {
     
 }
 .modern:hover {
-    background-image: url("../images/buster.jpg");
+    background-image: url("../images/laughter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .luxe {
-    background-image: url('../images/18.jpg');
+    background-image: url('../images/19a.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 .luxe:hover {
-    background-image: url("../images/buster.jpg");
+    background-image: url("../images/girls.jpg");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
