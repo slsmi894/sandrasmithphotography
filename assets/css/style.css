@@ -14,12 +14,25 @@ body {
 header {
     line-height: 1.8;
     font-family: PTSans;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(212, 211, 211, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
+    padding: 10px 16px;
+    top: 0;
+    left: 0;
+    /* display: flex; */
+    width: 100%;
+    /* Safari */
+    /* position: sticky; */
+    /* top: 0;
+    z-index: 1000; */
 }
+
 
 header h1 {
     margin: 15px 0;
 }
+
+
 
 .sColor {
     color: grey;
@@ -49,9 +62,21 @@ nav a:hover {
     color: darkslategrey;
 }
 
+/* .sticky + .mediaSpecial {
+    padding-top: 102px;
+} */
+
+/* .mediaSpecial {
+    margin-top: 300px;
+} */
 .carry h2 {
     margin: 30px 0;
 }
+
+/* .carousel {
+    width: 640px;
+    height: 360px;
+} */
 
 .boxes {
     margin: 0 5px 45px 0;
@@ -142,6 +167,40 @@ nav a:hover {
     background-size: 95%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#myBtn {
+    /* display: none; */
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgb(56, 51, 51);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 10px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
 }
 
 /* Cards are split into two columns at 992px or smaller */
