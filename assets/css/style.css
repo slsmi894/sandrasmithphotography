@@ -70,7 +70,8 @@ nav a:hover {
     margin-top: 300px;
 } */
 .carry h2 {
-    margin: 30px 0;
+
+    margin: 40px auto 20px auto;
 }
 
 /* .carousel {
@@ -79,7 +80,10 @@ nav a:hover {
 } */
 
 .boxes {
-    margin: 0 5px 45px 0;
+    max-width: 97%;
+    margin: 0 auto 45px auto;
+    display: flex;
+    flex: calc(50% - 1em);
     /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -112,14 +116,14 @@ nav a:hover {
 }
 
 .classicbw {
-    background-image: url('../images/13.jpg');
+    background-image: url('../wallart/4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .classicbw:hover {
-    background-image: url("../images/buster.jpg");
+    background-image: url("../bw/fam3-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -127,21 +131,21 @@ nav a:hover {
 
 
 .chroma {
-    background-image: url('../images/91a.jpg');
+    background-image: url('../wallart/7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .chroma:hover {
-    background-image: url("../images/IMG_3294.jpg");
+    background-image: url("../color/boutique2-46.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
-.modern {
+/* .modern {
     background-image: url('../images/17.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -153,17 +157,31 @@ nav a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
 .luxe {
-    background-image: url('../images/19a.jpg');
+    background-image: url('../wallart/2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .luxe:hover {
-    background-image: url("../images/girls.jpg");
+    background-image: url("../bw/boutique2-14.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.outdoor {
+    background-image: url('../wallart/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.outdoor:hover {
+    background-image: url("../outdoors/outdoor2.jpg");
     background-size: 95%;
     background-repeat: no-repeat;
     background-position: center;
