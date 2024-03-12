@@ -98,7 +98,6 @@ nav a:hover {
     margin: 10px 2%;
     text-decoration: none;
     background-size: 80%;
-
 }
 
 .boxitem>div {
@@ -124,9 +123,9 @@ nav a:hover {
 
 .classicbw:hover {
     background-image: url("../bw/fam3-3.jpg");
-    background-size: cover;
+    background-size: 85%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 
@@ -139,9 +138,9 @@ nav a:hover {
 
 .chroma:hover {
     background-image: url("../color/boutique2-46.jpg");
-    background-size: cover;
+    background-size: 85%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 
 }
 
@@ -168,21 +167,21 @@ nav a:hover {
 
 .luxe:hover {
     background-image: url("../bw/boutique2-14.jpg");
-    background-size: 90%;
+    background-size: 85%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 .outdoor {
     background-image: url('../wallart/3.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repea;
 
 }
 
 .outdoor:hover {
     background-image: url("../outdoors/outdoor2.jpg");
-    background-size: 95%;
+    background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
 }
