@@ -62,22 +62,10 @@ nav a:hover {
     color: darkslategrey;
 }
 
-/* .sticky + .mediaSpecial {
-    padding-top: 102px;
-} */
-
-/* .mediaSpecial {
-    margin-top: 300px;
-} */
 .carry h2 {
 
     margin: 40px auto 20px auto;
 }
-
-/* .carousel {
-    width: 640px;
-    height: 360px;
-} */
 
 .boxes {
     max-width: 97%;
@@ -347,10 +335,6 @@ input[type=submit]:hover {
         font-size: small;
     }
 
-    /* .mainHow h2 {
-        justify-content: center;
-        margin-left: 10%;
-        width: 50%;
-    } */
+ 
 
 }
