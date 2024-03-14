@@ -67,6 +67,11 @@ nav a:hover {
     margin: 40px auto 20px auto;
 }
 
+.pAbout p {
+    width: 80%;
+    margin: 4px auto;
+}
+
 .boxes {
     max-width: 97%;
     margin: 0 auto 45px auto;
@@ -200,6 +205,14 @@ nav a:hover {
    display: flex;
    margin: auto 0;
 
+}
+
+.textAbout p {
+    font-family: Quicksand;
+}
+
+.about-image {
+    background-size: 300%;
 }
 
 input[type=text],input[type=email], select, textarea {
