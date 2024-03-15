@@ -362,12 +362,21 @@ footer {
         font-size: 12px;
     }
 
+    .i-phone h3 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
     nav {
         line-height: 1.1;
+        width: 95%;
+        margin: 0 auto;
+
     }
 
     nav a {
         font-size: 10px;
+        margin-right: 2px;
     }
 
     .btn-group button {
@@ -379,34 +388,31 @@ footer {
         font-size: 10px;
     }
 
-    .mediaSpecial {
+    /* .mediaSpecial {
         width: 75%;
+      align-content: center;
+    } */
+
+    .mediaSpecial row {
+        margin: 0 auto;
     }
+
 
     .mainTop h2 {
         font-size: 14px;
+        margin-right: 10%;
     }
 
     .boxes {
 
         justify-content: center;
-
-
     }
 
-    /* .boxitem {
-
-    } */
-    .boxitem>div {
-        margin-top: 65%;
-        float: left;
-    }
 
     .boxitem {
         width: 50%;
         min-height: 100px;
         max-height: 100px;
-        /* flex-basis: calc(50 - 1em);  */
         background-size: 75%;
     }
 
@@ -415,6 +421,17 @@ footer {
         font-size: 9px;
         font-weight: bolder;
 
+    }
+
+    .intro h4 {
+        font-size: 14px;
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    .intro div p {
+        font-size: 11px;
+        width: 88%;
     }
 
     .allImg {
@@ -427,6 +444,14 @@ footer {
         width: 100%;
         /* margin-left: 20%; */
         font-size: small;
+    }
+
+    .topBtn {
+        margin-right: 20%;
+    }
+    footer {
+      display: none;
+    
     }
 
 
