@@ -21,6 +21,12 @@ p {
     font-size: 1.5em;
 }
 
+.allImg {
+    min-height: 20%;
+    max-height: 20%;
+ 
+}
+
 #myImg {
     border-radius: 5px;
     cursor: pointer;

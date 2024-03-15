@@ -17,10 +17,18 @@
 
 <body>
     <header id="top" class="container-fluid text-center sticky">
-        <h1><span class="sColor">S</span>ANDRA<span class="sColor">S</span>MITH</h1>
-        <h2><span class="secondTitle">PHOTOGRAPHY</span></h2>
-        <div>
-            <h3>865.724.1092</h3>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/wallart/Original Logo.png" alt="logo" style="width: 100%;max-width:300px">
+            </div>
+            <div class="col-4">
+                <h1><span class="sColor">S</span>ANDRA<span class="sColor">S</span>MITH</h1>
+                <h2><span class="secondTitle">PHOTOGRAPHY</span></h2>
+                <div>
+                    <h3>865.724.1092</h3>
+                </div>
+            </div>
+            <div class="col-4"></div>
         </div>
         <nav>
             <a href="./index.html">Home</a>
@@ -36,7 +44,7 @@
                             BW</a></li>
                     <li><a class="dropdown-item text-secondary" href="./chroma.html">Classic Color</a>
                     </li>
-                 
+                    <!-- <li><a class="dropdown-item text-secondary" href="./modern.html">Modern</a>
                     </li> -->
                     <li><a class="dropdown-item text-secondary" href="./luxe.html">Luxe</a></li>
                     <li><a class="dropdown-item text-secondary" href="./outdoors.html">Outdoors</a></li>
@@ -53,15 +61,14 @@
     </header>
     <main class="container-fluid text-center">
         <h2>CLASSIC COLOR GALLERY</h2>
-  
+
         <div class="row d-flex justify-content-center mt-5">
-            <img class="col-4" id="myImg" src="./assets/color/baby.JPG" alt="pet"
-                style="width:50%;max-width:275px">
+            <img class="col-4" id="myImg" src="./assets/color/baby.JPG" alt="pet" style="width:50%;max-width:275px">
             <img class="col-4" id="myImg" src="./assets/color/boutique2-28.jpg" alt="pet"
                 style="width:50%;max-width:275px">
             <img class="col-4" id="myImg" src="./assets/color/boutique2-47.jpg" alt="pet"
                 style="width:50%;max-width:275px">
-        
+
         </div>
         <div class="row d-flex justify-content-center mt-4 mb-5">
             <img class="col-4" id="myImg" src="./assets/color/boutique2-14.jpg" alt="pet"
@@ -70,9 +77,9 @@
                 style="width:50%;max-width:250px">
             <img class="col-4" id="myImg" src="./assets/color/boutique2-46.jpg" alt="pet"
                 style="width:50%;max-width:275px">
-          
+
         </div>
-       
+
 
         <!-- The Modal -->
         <div id="myModal" class="modal">
@@ -80,6 +87,7 @@
             <img class="modal-content" id="img01">
             <div id="caption"></div>
         </div>
+        <button onclick="topFunction()" id="myBtn" class="topBtn" title="Go to top">TOP</button>
     </main>
     <footer class="container-fluid ">
         <div class="row p-4">

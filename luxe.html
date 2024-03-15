@@ -17,10 +17,18 @@
 
 <body>
     <header id="top" class="container-fluid text-center sticky">
-        <h1><span class="sColor">S</span>ANDRA<span class="sColor">S</span>MITH</h1>
-        <h2><span class="secondTitle">PHOTOGRAPHY</span></h2>
-        <div>
-            <h3>865.724.1092</h3>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/wallart/Original Logo.png" alt="logo" style="width: 100%;max-width:300px">
+            </div>
+            <div class="col-4">
+                <h1><span class="sColor">S</span>ANDRA<span class="sColor">S</span>MITH</h1>
+                <h2><span class="secondTitle">PHOTOGRAPHY</span></h2>
+                <div>
+                    <h3>865.724.1092</h3>
+                </div>
+            </div>
+            <div class="col-4"></div>
         </div>
         <nav>
             <a href="./index.html">Home</a>
@@ -54,18 +62,19 @@
 
     <main class="container-fluid text-center">
         <h2>LUXE GALLERY</h2>
-     
+
         <div class="row d-flex justify-content-center mt-5">
             <img class="col-12" id="myImg" src="./assets/bw/boutique2-14.jpg" alt="pet"
                 style="width:100%;max-width:250px">
 
 
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
-        </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            <button onclick="topFunction()" id="myBtn" class="topBtn" title="Go to top">TOP</button>
     </main>
 
     <footer class="container-fluid ">
