@@ -344,7 +344,7 @@ footer {
   } */
 
 /* Cards are stacked on top of each other at 768px or smaller */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     header h1 {
         font-size: 16px;
     }
@@ -388,10 +388,6 @@ footer {
         font-size: 10px;
     }
 
-    /* .mediaSpecial {
-        width: 75%;
-      align-content: center;
-    } */
 
     .mediaSpecial row {
         margin: 0 auto;
@@ -407,7 +403,6 @@ footer {
 
         justify-content: center;
     }
-
 
     .boxitem {
         width: 50%;
@@ -425,8 +420,8 @@ footer {
 
     .intro h4 {
         font-size: 14px;
-       display: flex;
-       flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .intro div p {
@@ -449,11 +444,44 @@ footer {
     .topBtn {
         margin-right: 20%;
     }
-    footer {
-      display: none;
-    
+
+    /* .classicbw {
+        background-image: none;
+    } */
+
+    .classicbw:hover {
+        background-image: none;
+    }
+
+    /* .chroma {
+        background-image: none;
+    } */
+
+    .chroma:hover {
+        background-image: none;
+    }
+
+    /* .luxe {
+        background-image: none;
+    } */
+
+    .luxe:hover {
+        background-image: none;
+    }
+
+    /* .outdoor {
+        background-image: none;
+    } */
+
+    .outdoor:hover {
+        background-image: none;
     }
 
 
+
+    footer {
+        display: none;
+
+    }
 
 }

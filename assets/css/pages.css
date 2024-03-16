@@ -21,10 +21,14 @@ p {
     font-size: 1.5em;
 }
 
+.btnGallery:hover {
+    border: 2px solid blueviolet;
+}
+
 .allImg {
     min-height: 20%;
-    max-height: 20%;
- 
+    /* max-height: 20%; */
+
 }
 
 #myImg {
@@ -133,4 +137,51 @@ p {
     .modal-content {
         width: 100%;
     }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .pGallery {
+        background-color: rgb(13, 13, 13);
+    }
+
+    .pGallery h2 {
+        font-size: 14px;
+        color: white;
+    }
+
+    .myImg {
+        min-height: 150px;
+        /* max-height: 150px; */
+        margin: 5px;
+        width: 100%;
+
+    }
+
+    .psPage {
+        width: 100%;
+        margin: 0 auto 0 22%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .pStyle>h2 {
+        font-size: 12px;
+    }
+
+    .btnGallery {
+        font-size: 8px;
+    }
+    .btnGallery:hover {
+        border: 2px solid purple;
+    }
+
+    .allImg {
+        min-height: 150px;
+        margin: 15px;
+        width: 100%;
+
+    }
+
+
 }
