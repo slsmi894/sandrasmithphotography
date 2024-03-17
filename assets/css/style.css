@@ -387,9 +387,12 @@ footer {
     nav div li a {
         font-size: 10px;
     }
-    
+/*     
     .pAbout h2 {
         font-size: 14px;
+    } */
+    .pAbout h3 {
+        font-size: 12px;
     }
 
     .pAbout div p{
@@ -414,7 +417,31 @@ footer {
         width: 100%;
     }
 
+    .blogMore {
+        width: 100%;
+        /* margin: 0 auto 0 22%; */
+        display: flex;
+        flex-flow: column;
+    
+    }
+    .contactMore {
+        width: 100%;
+        /* margin: 0 auto 0 22%; */
+        display: flex;
+        flex-flow: column;
+    
+    }
+    .contactXtra {
+        width: 100%;
+    }
+
     .about-image {
+        min-height: 175px;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .myPicx {
         min-height: 175px;
         width: 100%;
         margin: 5px;
@@ -470,6 +497,33 @@ footer {
         width: 100%;
         /* margin-left: 20%; */
         font-size: small;
+    }
+
+    /* .mainHow h2 {
+        font-size: 16px;
+        font-weight: bolder;
+    } */
+
+    .mainHow h3 {
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+
+    .howIt {
+        flex-flow: column;
+        align-content: center;
+        width: 100%; 
+       
+    }
+
+    .howIt>h5 {
+        color: rgb(54, 53, 53);
+    }
+
+    .howIt div p {
+        font-size: 14px;
+        color: rgb(49, 48, 48);
     }
 
     .topBtn {
