@@ -387,7 +387,38 @@ footer {
     nav div li a {
         font-size: 10px;
     }
+    
+    .pAbout h2 {
+        font-size: 14px;
+    }
 
+    .pAbout div p{
+        font-size: 11px;
+    }
+    .aboutFirst {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .aboutFirst div p {
+        width: 100%;
+    }
+
+    .aboutMore{
+        display: flex;
+        flex-flow: column;
+      
+    }
+
+    .aboutMore div p {
+        width: 100%;
+    }
+
+    .about-image {
+        min-height: 175px;
+        width: 100%;
+        margin: 5px;
+    }
 
     .mediaSpecial row {
         margin: 0 auto;
