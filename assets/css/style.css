@@ -47,7 +47,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 15px;
 
 }
 
@@ -55,6 +54,7 @@ nav a {
     text-decoration: none;
     font-family: Quicksand;
     color: grey;
+    font-size: 20px;
 }
 
 nav a:hover {
@@ -319,10 +319,7 @@ input[type=submit]:hover {
     padding: 10px;
     margin-bottom: 5px;
     width: 100%;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: 
-    space-between; */
+   
     border-radius: 20px;
 }
 

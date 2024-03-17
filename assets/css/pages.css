@@ -2,6 +2,15 @@ p {
     font: 0.5rem;
 }
 
+.mainContact {
+    margin-bottom: 0;
+}
+
+.contactMore,
+.contactXtra {
+    margin-bottom: 0;
+}
+
 .psPage {
     display: flex;
     flex-direction: row;
@@ -37,12 +46,6 @@ p {
     max-height: 400px;
 }
 
-/* .allImg {
-    min-height: 60%;
-    min-width: 40%;
-    /* max-height: 20%; 
-
-} */
 
 #myImg {
     border-radius: 5px;
