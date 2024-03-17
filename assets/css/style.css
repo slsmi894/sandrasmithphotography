@@ -218,8 +218,8 @@ nav a:hover {
 }
 
 .myPicx {
-    width: 60%;
-    height: 40%;
+    width: auto;
+    height: 20%;
     border-radius: 50px;
     display: flex;
     margin: auto;
@@ -253,7 +253,7 @@ nav a:hover {
     padding: 5px;
     border-radius: 40px;
 
-    box-shadow: 25px 25px 50px 10 rgb(58, 57, 57) inset, -25px -25px 50px 0 rgb(30, 29, 29) inset;
+    box-shadow: 25px 25px 50px 10 rgb(26, 26, 26) inset, -25px -25px 50px 0 rgb(17, 11, 11) inset;
 
 }
 
@@ -265,13 +265,11 @@ nav a:hover {
     width: 50%;
     box-shadow: 10px 10px 10px 0px rgb(43, 40, 40);
 
-
-
 }
 
 .textAbout>p {
     color: white;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 input[type=text],

@@ -2,16 +2,23 @@ p {
     font: 0.5rem;
 }
 
-.allImg {
-    padding: 10px;
-    min-height: 400px;
-    max-height: 400px;
+.psPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+.pStyle {
+    min-height: 300px;
+    width: auto;
+   
+}
+
 
 .btnGallery {
     width: 50%;
     margin: 10px auto;
-
+    
 }
 
 .btnGallery a {
@@ -24,17 +31,26 @@ p {
 .btnGallery:hover {
     border: 2px solid blueviolet;
 }
-
 .allImg {
-    min-height: 20%;
-    /* max-height: 20%; */
-
+    padding: 10px;
+    min-height: 400px;
+    max-height: 400px;
 }
+
+/* .allImg {
+    min-height: 60%;
+    min-width: 40%;
+    /* max-height: 20%; 
+
+} */
 
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    padding: 10px;
+    min-height: 275px;
+    min-width: auto;
 }
 
 #myImg:hover {
