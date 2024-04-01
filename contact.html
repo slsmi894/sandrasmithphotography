@@ -82,32 +82,24 @@
                     <p class="mt-5" style="font-weight: bolder;">Let's chat! 865-724-1092</p>
 
                 </div>
-                <div class="contactForm">
-
-                    <form class="mb-4 p-3" id="contact-form">
-
-
-                        <div class="p-3 m-3">
-                            <label class="pr-3">Name</label>
-                            <input type="text" name="user_name">
-                        </div>
-                        <div class="mb-3">
-
-                            <label>Email</label>
-                            <input type="email" name="user_email">
-                        </div>
-                        <div class="mb-3">
-                            <label>Message</label>
-                            <textarea class="mb-3" name="message"></textarea>
-                        </div>
-                        <div>
-                            <input type="submit" value="Send">
+                <div class="container">
+                    <div class="card col-md-6 offset-md-3" style="margin-top:50px;">
+                        <div class="card-body">
+                            <h2>Contact Us</h2>
+                            <form id="contact-form">
+                                <label>Name</label>
+                                <input type="text" name="user_name" placeholder="Enter Name">
+                                <label>Email</label>
+                                <input type="email" name="user_email" placeholder="Enter Email">
+                                <label>Message</label>
+                                <textarea name="message" placeholder="Enter Message"></textarea>
+                             
+                                <input type="submit" value="Send">
+                            </form>
 
                         </div>
-                    </form>
+                    </div>
                 </div>
-
-    
             </div>
         </div>
 
@@ -159,8 +151,10 @@
     <script src="./assets/js/contact.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
+
     <script type="text/javascript">
         (function () {
+            // https://dashboard.emailjs.com/admin/account
             emailjs.init({
                 publicKey: "BiVqUMQcHH-Z_Huef",
             });
