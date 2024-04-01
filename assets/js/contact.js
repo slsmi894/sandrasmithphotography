@@ -6,6 +6,7 @@ window.onload = function() {
         emailjs.sendForm('service_j2a5kdb', 'contact_form', this)
             .then(() => {
                 console.log('SUCCESS!');
+                alert("Email Successfully Sent!")
             }, (error) => {
                 console.log('FAILED...', error);
             });
