@@ -48,12 +48,13 @@ p {
 
 
 #myImg {
+    min-height: 250px;  
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    padding: 10px;
-    min-height: 275px;
-    min-width: auto;
+    padding: 2px;
+
+    /* min-width: auto; */
 }
 
 #myImg:hover {
