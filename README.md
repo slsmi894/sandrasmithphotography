@@ -12,3 +12,4 @@ The following technology was used to complete this website:
 - CSS and Bootstrap
 - Javascript
 
+contact me if you have questions.
