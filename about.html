@@ -4,186 +4,265 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Award Winning Photographer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Sandra Smith Photography</title>
-</head>
+    <link rel="stylesheet" href="./porto/css/stylesheet.css">
 
 <body>
-    <header id="top" class="container-fluid text-center sticky">
+    <header class="container-fluid headertop">
+
         <div class="row">
             <div class="col-4">
-                <img src="./assets/wallart/Original Logo.png" alt="logo" style="width: 100%;max-width:300px">
+                <img src="./assets/images/logo.png" alt="logo" class="logo">
             </div>
-            <div class="col-4">
-                <h1><span class="sColor">S</span>ANDRA<span class="sColor">S</span>MITH</h1>
-                <h2><span class="secondTitle">PHOTOGRAPHY</span></h2>
-                <div class="i-phone">
-                    <h3>Office: 865.724.1092</h3>
-                    <h3>Mobile: 865.696.1106</h3>
+            <nav class="col-8 topnav" id="myTopnav">
+                <a href="./index.html" class="active">HOME</a>
+                <!-- <a href="./about.html">ABOUT SANDRA</a> -->
+                <!-- <a href="../phabulous.html">PHABULOUS</a> -->
+                <a href="./portfolio.html">PORTFOLIO</a>
+                <a href="./workshops.html">WORKSHOPS</a>
+                <a href="./community.html">COMMUNITY</a>
+                <a href="./contact.html">CONTACT</a>
+                <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    
+                  </a> -->
+                <button class="icon"><i class="fa fa-bars" id="bars" aria-hidden="true"></i></button>
+            </nav>
+    </header>
+
+    <main class="container ">
+        <div class="row mt-5 text-center">
+            <h3>ABOUT SANDRA</h3>
+            <h6><span class="portPhrase">Gifted with a passion for photography, her love is showing how beautiful each
+                    person is....</span></h6>
+        </div>
+        <div class="row mt-5 ">
+
+            <div class="col-12 align-items-center">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/family/IMG_0770.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/family/IMG_0830.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/family/100.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+                <!-- <article class="gallery familyFlex">
+                    <a href="#" target="_top">
+                      <img src="./assets/images/family/100.jpg" alt="family" />
+                    </a>
+                    <a href="#" target="_top">
+                      <img src="./assets/images/family/IMG_0770.jpg" alt="family" />
+                    </a>
+                    <a href="#" target="_top">
+                      <img src="./assets/images/family/IMG_0830.jpg" alt="family" />
+                    </a>
+                    <a href="#" target="_top">
+                      <img src="./assets/images/family/IMG_1346.jpg" alt="family" />
+                    </a>
+                    <a href="#" target="_top">
+                      <img src="./assets/images/family/IMG_1430.jpg" alt="family" />
+                    </a>
+                    <a href="#" target="_top">
+                      <img src="./assets/images/family/IMG_2065.jpg" alt="family" />
+                    </a>
+                    <a href="#" target="_top">
+                      <img src="./assets/images/family/IMG_2072.jpg" alt="family" />
+                    </a>
+                    <a href="#" target="_top">
+                      <img src="./assets/images/family/IMG_3304.JPG" alt="family" />
+                    </a>
+                    
+                  </article> -->
+            </div>
+            <div class="row" class="mt-5 text-center">
+                <h3>Sandra's Story</h3>
+                <div class="col-4">
+                    <p>Who am I? I am Sandra Smith, and I am a boutique photographer, not like any other photographer.
+                    </p>
+                    <p>Aside from photography, I am a wife, mother and dog owner.</p>
+                    <p>I am passionate about the beauty of life, people, the world, art, history, everything.....</p>
+                    <p>I have been described as a "dreamer", I call those goals! As a young girl growing up, I was often
+                        told, you can't do that, or that's not for you. I am glad that I didnt listen to that or else I
+                        would have missed out on a lot of things, especially photography.</p>
+                    <p>Here's how photography came about....its quite romantic, in fact. I was always interested in it,
+                        I have always been attracted to art. I grew up around it. I took up oil painting lessons at the
+                        age of 8, while growing up in Hawaii.</p>
+                    <p>I always wanted to study photography, but just didnt know where to look. My local college
+                        counselor told me that was not a career and advised me to go into accounting. So, I put this
+                        "dream" aside. Then years later, married in and in California, a family member of mine, was a
+                        photographer and needed help. </p>
+                    <p>So, I volunteered to assist at a wedding, and for me, something was awakened. It was like walking
+                        into a storybook. The wedding was held a castle-like venue. The bride was breathless, it was
+                        just so magical. I was bitten! I set my sites to learning how to become a photogapher too. I am
+                        the youngest in my family of 7, and not always taken seriously. I believe that when someone has
+                        a passion that is unresolved, they wonder, and yes, I did different things and just wasnt
+                        satisfied. But whatever I did, I did to the best of my ability, my parents instilled a strong
+                        work ethic in me.In fact, she went on to become a celebrated photographer, photographing
+                        celebrities, winning awards, and teaching photography all over the world. And I was so
+                        fortunate, my sister-in-law, the photographer, whom I ended up learning from, is a gifted and
+                        talented photographer. </p>
+                    </div>
+                    <div class="col-4">
+                    <p>I was hooked, and I too, was gifted with a passion and an eye for photography. While my journey
+                        stayed close to home, in Tennessee, through the years, I earned many accolades and awards
+                        internationally and locally. I enjoyed the celebration of the wedding day, and loved all the
+                        clients I met and many places we traveled to locally and nationally.</p>
+                    <p>And after so many years, I decided to take a break to be at home with my family, and my special
+                        needs son. My family and I treasure the years we had with him. We will miss him, and we know
+                        that we gave him a full life, and he gave us so much, his love.</p>
+                    <p>I have been doing photography even while taking a break, its in my dna and I embrace it. And
+                        while I specialized in weddings for many years, after taking a break, life with son gave me such
+                        a different perspective, on how precious our family is and the time we have together. I now
+                        specialize in family and portrait photography, and lifestyle branding photography.</p>
+                   
+                    <p>The family unit is so important to me, and I want to help you create beautiful images of your
+                        family.</p>
+                    <p>I tried to leave the world of photography during my break, I went back to finish my degree in
+                        Business Management, obtaining my Bachelor's degree, and getting certified in Project
+                        Management, earning an extremely high score in my final exam. You have to understand, this was
+                        an impossible day, I did not sleep, I was 30 minutes late to the exam, and forgot my reading
+                        glasses. After taking the class, I informed the facilitator to reschedule me for the next test.
+                        Assuming I didnt pass, she asked why I wanted to do that when I had passed the exam. And then
+                        she informed me that I had scored the highest she had seen in years. I cried out of sheer
+                        exhaustion, joy and a bit of disbelief.</p>
+                    </div>
+                    <div class="col-4">
+                    <p>Also, during covid-19, when we were in lock down, I ventured into two other fields. I signed up
+                        for a class in coding, software programming, and wanted to enhance my knowledge, andlearn about
+                        gardening. I had learned gardening from my mother when I was young, but wanted to perfect my
+                        knowledge and skills. Well, having earned my certification in full stack web development,and I
+                        was asked to apply and join the team to teach coding. And I loved it! My first university that I
+                        taught at was Johns Hopkins University. I was also invited to join the instructional teams that
+                        were teaching coding for United Kingdom/Great Britain. I have enjoyed it these last five years,
+                        and now have decided to focus on my true passions, photography and gardening. Crazy right? God
+                        has taken me on many journeys, but I always came back to photography or photography kept finding
+                        me.</p>
+                    <p>I believe in humans, in people of any age. I believe in life, and that we are all capable of
+                        doing anything we put our minds to. Nothing is unobtainable, and I especially want to share this
+                        message with young girls.</p>
+                    <p>So you have learned a little bit about me. I have a big heart for you, and I know that I can help
+                        you. Most people are not crazy about how they look in pictures. I will show you that my style is
+                        easy, and I know how to capture you to bring forth your gorgeous you, your essence.</p>
+                    <p>My thanks, and praise to all who have supported me, but especially to God above. For it is HE who
+                        has made me who I am today, and gifted me this wondrous skill of being a gifted photographer.
+                    </p>
+                    <p>And the gardening.... as mentioned above..where does this come in? Well, that's my other
+                        business. Southern Kitchen Garden. People have always asked me if I could help them with their
+                        gardening needs, and I love it! And a friend told me, "I think its time you do that as a
+                        business!"</p>
+                    <!-- <p>My mission is to guide you through the process of capturing the essence of the moment. To help each person that is part of the session to feel secure, beautiful and confident.  Yes, no matter the age, each person needs to feel secure, beautiful and confident. Because each person is beautiful!</p>
+                <p>Let me share a story...For my HS Senior Portraits, my Mother won a studio session for me. And I am sorry to say, kindly, not all photographers are photographers. It was the most horrible experience, I was nervous and the photographer could not figure out how to make me feel secure or confident or even beautiful. Pictures were ok, and I swore I would never get my picture made again, ever.</p>
+                <p>I beg you, never say never.  I can show you how beautiful you are, and you will feel it and enjoy your session. When I wanted to become a photographer, under the tutiledge of my mentor, I learned what it took to help solve issues like this for my clients. What it is to be a true artist, and to make each person feel secure, beautiful and confident. And of course, with her help, I overcame my fear of getting my picture made again.</p>
+                <p>When I became professional, my mission was to help each person feel secure, beautiful and confident. And I have wonderful technique to do just that. Giving a wonderful experience, in fact fun, and a wonderful memory captured through the lens.</p>
+                <p>Let's start a conversation about updating your images or your family images! I can help you with that!   </p> -->
                 </div>
             </div>
-            <div class="col-4"></div>
-        </div>
-        <nav class="row  ">
-            <div class="col-1"></div>
-            <a class="col-1" href="./index.html">Home</a>
-            <a class="col-1" href="./about.html">About</a>
-            <div class="col-2 btn-group ">
-                <button type="button" class="btn btn-white dropdown-toggle text-secondary btnportraits"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Portraits
-                </button>
-                <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item text-secondary" href="./portraitstyle.html">Portrait Style</a></li>
-                    <li><a class="dropdown-item text-secondary" href="./classicbw.html">Classic
-                            BW</a></li>
-                    <li><a class="dropdown-item text-secondary" href="./chroma.html">Classic Color</a>
-                    </li>
-                    <!-- <li><a class="dropdown-item text-secondary" href="./modern.html">Modern</a>
-                    </li> -->
-                    <li><a class="dropdown-item text-secondary" href="./luxe.html">Luxe</a></li>
-                    <li><a class="dropdown-item text-secondary" href="./outdoors.html">Outdoors</a></li>
-                    <li><a class="dropdown-item text-secondary" href="./graduates.html">Graduates</a></li>
-                    <li><a class="dropdown-item text-secondary" href="./pets.html">Pets</a></li>
-                </ul>
-            </div>
-            <a class="col-2" href="./how-it-works.html">How It Works</a>
-            
-            <a class="col-1" href="./blog.html">Blog</a>
-            <a class="col-2" href="./contact.html">Contact</a>
-            <div class="col-2"></div>
-
-        </nav>
-    </header>
-    <main class="container-fluid text-center pAbout">
-        <h2>ABOUT THE PHOTOGRAPHER</h2>
-        <!-- <img id="myImg" src="#" alt="Snow" style="width:100%;max-width:300px"> -->
-        <div class="row mt-5 mb-5 text-black aboutFirst ">
-
-            <div class="col-8">
-
-                <p>Sandra Smith</p>
-                <p>Mother of 2. Started her career in wedding fine art photography, took a break to be at home with her
-                    family. Then realized it was time to do what she is truly passionate about, so Sandra Smith Photography  was created in 2023 specializing in wall art, boutique style.</p>
-                <p>"Digitals on a USB are are overwhelming, and sadly nothing gets printed. I am here to
-                    service my
-                    clients, as I want for you to have art on your walls, art that happens to be your family." </p>
-                <p>"I have an image of our family, when the kids were young, and I always enjoyed seeing that wall art
-                    through the years and even today."</p>
-                <p>Images that make your heart skip a beat every time you pass them in your home. I want you to have
-                    images
-                    of your family, that remind you of why you decided to do the whole choatic thing called, "Family" in
-                    the
-                    first place. </p>
-                <p>"Images that go beyond just a record of the people in your life, images that capture the essence of
-                    your
-                    unique family, their personalities, the connection between them and the love that binds you all
-                    together"</p>
-            </div>
-            <div class="col-4 ">
-                <img src="./assets/pets/boutique2-71.jpg" alt="" class="about-image">
-            </div>
-
-            <div class="row text-black ">
-
-                <p style="font-weight: bolder;">Let's talk, call me! office: 865-724-1092 or mobile: 865-696-1106</p>
-
-
-            </div>
-        </div>
-        <!-- <p style="font-weight: bolder;">Let's talk, call me! 865-724-1092</p> -->
-        <div class="row mt-3 d-flex justify-content-evenly aboutMore">
-            <div class="col-5 ">
-                <img src="./assets/pets/boutique2-52.jpg" class="about-image" alt="">
-            </div>
-            <div class="col-7 text-dark textAbout">
-
-                <p>
-                    When I am not photographing.....
-                </p>
-                <p>
-                    I teach and tutor coding programming language online through major universities in the US and with
-                    the UK, as a part-time side-gig. I really enjoy working through the logic and helping students gain
-                    an understanding of the concepts. I started with Johns Hopkins University two years ago, and work
-                    with varying universities across the nation on a rotation basis. 
-                </p>
-                <p>
-                    I love the beach... who does not? So I am either traveling to Hawaii to visit family once in a
-                    while, or making the annual visit to a the Carolina beaches or Florida beaches. Favorites? Love
-                    Folly -- it has the old beach vibe feel that I grew up with, and you should eat at Washout for Wed
-                    Oyster Roast, and of course, The Lost Dog Cafe. For Florida, love the Santa Rosa/Miramar beaches.
-                    But I will say, nothing beats the water and sand beaches of Hawaii....favorite places there? too
-                    many to list here.
-                </p>
-                <p>
-                    And I love to be at home with my husband and two dogs. I am totally into cooking from scratch, but
-                    will take the road less traveled with a starter mix... why not, gives me time back to do other
-                    things! Gardening is a must for me, during the pandemic, I really got into it and love it! I love
-                    flowers, their beauty is just priceless, I really wish they would last all year, they just make me
-                    smile. And if you have never grown your own veggies and herbs, the taste is super awesome!
-                </p>
-                <p>
-                    I love life, and I am grateful for my family, for the life we have created!
-                </p>
-            </div>
-
         </div>
 
 
 
 
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
+        <div class="row mt-5 text-center">
+            <p class="col-12 homeText">
+                Award Winning Photographer
+            </p>
+            <p>Award Winning Photographer, Sandra Smith Photographer</p>
         </div>
-        <button onclick="topFunction()" id="myBtn" class="topBtn" title="Go to top">TOP</button>
     </main>
 
-    <footer class="container-fluid ">
-        <div class="row p-4">
-            <div class="col-3 instagram">
-                INSTAGRAM
 
+    <footer class="container-fluid footer">
+        <div class="row">
+            <div class="col-3">
+                <h5>ABOUT US</h5>
+                <p>
+
+                    At Sandra Smith Photography we are looking forward to talking to you
+                    about your photography needs. Commercial, Branding/Head Shots,
+                    Weddings, Family, Babies First Year, High School Seniors, and
+                    Photography Workshops. Give us a call! 865-696-1106 or send an email
+                    to sandra@sandrasmithphotography.com
+                    <a href="mailto:sandra@sandrasmithphotography.com">click here</a>
+                </p>
             </div>
             <div class="col-3">
-
-            </div>
-            <div class="col-3 contactFooter">
-                <h6>CONTACT</h6>
+                <h5>HOURS</h5>
                 <p>By Appointment Only</p>
-                <p>Maryville, TN 37803</p>
-                <p>Office: 865-724-1092</p>
-                <p>Mobile: 865-696-1106</p>
-                <p>Email: sandra@sandrasmithphotography.com</p>
+                <p>Tuesday - Friday: 9:00am - 5:00pm</p>
+                <p>Saturday: 10:00am - 4:00pm</p>
             </div>
             <div class="col-3">
-                <h6>CONNECT</h6>
-                <a href="https://www.facebook.com/sandrasmithphototography "><i class="fa fa-facebook"
-                        aria-hidden="true"></i></a>
+                <h5>Based in East Tennessee</h5>
+                <p>Available for travel</p>
+                <p>Mobile: 865.696.1106</p>
+                <p>Office: 865.724.1092</p>
+                <p>email: sandra@sandrasmithphotography.com</p>
+            </div>
+            <div class="col-3">
+                <h5>CONNECT</h5>
+                <div class="end">
+
+                    <a href="https://www.facebook.com/sandrasmithphototography" target="_blank"
+                        class="fab fa-facebook"></a>
+                    <a href="https://www.instagram.com/sandysmithphoto/" target="_blank" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/sandrasmithphoto/" target="_blank" class="fab fa-linkedin"></a>
+                    <p class="end">Are you a member?</p>
+                    <p>
+                        <span class="red">Sandra's Red Carpet Lounge!</span> <a
+                            href="https://www.facebook.com/groups/sandrasmithphotography">Join Now</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- {/* <div className="flex-row px-1">
+            </div> */} -->
+        <div class="row px-1 align-items-center">
+            <div class="col-6">
+                <p class="text-center">
+                    Copyright &copy; Sandra Smith Photography 2024. All Rights Reserved
+                </p>
+            </div>
+            <div class="col-6">
+                <img class="logo" src="./assets/images/PPA_Member_White_Logo.png" alt="PPA Logo">
             </div>
         </div>
 
-        <p class=" row mt-3 p-2"> (c) Copyright 2024 Sandra Smith Photography | All rights Reserved | Designed by Sandra
-            Smith</p>
+
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
-
 </body>
 
 </html>
